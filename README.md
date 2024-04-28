@@ -9,32 +9,6 @@ This is a to-do list project (`TODO List`) developed with **React** and **Tailwi
 - Mark a task as completed.
 - Remove a task from the list.
 
-## Installation
-
-To install and run the project locally, follow the instructions below:
-
-1. Clone the repository:
-    ```shell
-    git clone https://github.com/your-username/your-project.git
-    ```
-
-2. Navigate to the project directory:
-    ```shell
-    cd your-project
-    ```
-
-3. Install the dependencies:
-    ```shell
-    npm install
-    ```
-
-4. Start the development server:
-    ```shell
-    npm run dev
-    ```
-
-The project will be available in the browser at `http://localhost:3000`.
-
 ## Project Structure
 
 The project consists of two main components:
