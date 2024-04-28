@@ -1,13 +1,13 @@
 import { Item } from "@/types/Item";
 
-// A type to Add
+// A type to Add an Item
 type AddItemAction = {
     type: 'addItem';
     payload: {
         text: string
     };
 }
-
+// A type to Edit an Item
 type EditItemAction = {
     type: 'editItem';
     payload: {
@@ -15,14 +15,14 @@ type EditItemAction = {
         text: string
     };
 }
-
+// A type to toggle the state of an Item
 type ToggleItemAction = {
     type: 'toggleItem';
     payload: {
         id: number
     };
 }
-
+// A type remove an Item from the list
 type RemoveItemAction = {
     type: 'removeItem';
     payload: {

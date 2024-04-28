@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TODO List
 
-## Getting Started
+This is a to-do list project (`TODO List`) developed with **React** and **Tailwind CSS**. The project allows adding, editing, checking, and removing tasks from the list. The interface is modern and user-friendly, with a custom style using Tailwind CSS.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Add a new task to the list.
+- Edit the text of an existing task.
+- Mark a task as completed.
+- Remove a task from the list.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To install and run the project locally, follow the instructions below:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
+    ```shell
+    git clone https://github.com/your-username/your-project.git
+    ```
 
-## Learn More
+2. Navigate to the project directory:
+    ```shell
+    cd your-project
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Install the dependencies:
+    ```shell
+    npm install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Start the development server:
+    ```shell
+    npm run dev
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The project will be available in the browser at `http://localhost:3000`.
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project consists of two main components:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- `Page`: The main component that contains the task list logic and the user interface.
+- `listReducer`: A reducer that manages the state of the task list and supports actions such as adding, editing, toggling, and removing tasks.
+
+## How to Use
+
+- Add a new task by typing the text in the input field and pressing the `+` button.
+- To mark a task as completed, click on the task text.
+- To edit a task, click on the edit icon (pencil) next to the task.
+- To remove a task, click on the trash icon next to the task.
+
+## Final Considerations
+
+This project was developed as a learning experience in **React** and **Tailwind CSS**. It served me as a practical example to understand the fundamental concepts of React such as functional components, hooks (`useReducer`), and state management.
+
+---
